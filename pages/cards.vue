@@ -1,9 +1,14 @@
 <template>
-  <main>
+  <main class="min-h-screen flex flex-column justify-center items-center p-4">
     <h1>
       {{ currentQuestion ? currentQuestion : 'Draw a question' }}
     </h1>
-    <button @click="getRandomQuestion">Shuffle</button>
+    <button
+      class="fixed bottom-0 m-2 px-4 py-2 bg-red-500 text-white rounded"
+      @click="getRandomQuestion"
+    >
+      Draw
+    </button>
   </main>
 </template>
 

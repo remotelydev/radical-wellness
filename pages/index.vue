@@ -12,16 +12,6 @@
         <nuxt-link to="/cards">
           Cards
         </nuxt-link>
-        <!-- <a href="https://nuxtjs.org/" target="_blank" class="button--green">
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a> -->
       </div>
     </div>
   </div>
@@ -37,7 +27,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 /* Sample `apply` at-rules with Tailwind CSS
 .container {
   @apply min-h-screen flex justify-center items-center text-center mx-auto;
