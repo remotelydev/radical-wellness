@@ -1,19 +1,8 @@
 <template>
   <div class="container">
-    <div>
+    <nuxt-link class="w-64 text-black" to="/cards">
       <Logo />
-      <h1 class="title">
-        radical-truth
-      </h1>
-      <h2 class="subtitle">
-        Radical truth website
-      </h2>
-      <div class="links">
-        <nuxt-link to="/cards">
-          Cards
-        </nuxt-link>
-      </div>
-    </div>
+    </nuxt-link>
   </div>
 </template>
 
