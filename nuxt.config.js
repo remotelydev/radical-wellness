@@ -45,6 +45,24 @@ export default {
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv'
   ],
+  purgeCSS: {
+    whitelist: [
+      'text-white',
+      'text-black',
+      'text-rad-red',
+      'text-rad-pink',
+      'text-rad-beige',
+      'text-rad-green',
+      'text-rad-yellow',
+      'bg-white',
+      'bg-black',
+      'bg-rad-red',
+      'bg-rad-pink',
+      'bg-rad-beige',
+      'bg-rad-green',
+      'bg-rad-yellow'
+    ]
+  },
   /*
    ** Build configuration
    */
