@@ -1,10 +1,14 @@
 <template>
   <header
-    class="container fixed inset-x-0 bg-white z-10 sm:flex sm:justify-between sm:items-center"
+    :class="isOpen ? 'bg-white' : 'bg-transparent'"
+    class="container fixed inset-x-0 z-10 sm:flex sm:justify-between sm:items-center"
   >
-    <div class="flex justify-between items-center px-4 py-2">
+    <div class="flex justify-between items-center p-2">
       <div>
-        <nuxt-link class="font-bold px-2 py-1" to="/"
+        <nuxt-link
+          class="font-bold px-2 py-1"
+          to="/"
+          @click.native="isOpen = false"
           >Radical Wellnes</nuxt-link
         >
       </div>
@@ -26,13 +30,22 @@
       </div>
     </div>
     <div :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 sm:flex">
-      <nuxt-link class="block px-2 py-1 rounded hover:bg-gray-200" to="/shop"
+      <nuxt-link
+        class="block px-2 py-1 rounded hover:bg-gray-200"
+        to="/shop"
+        @click.native="isOpen = false"
         >Shop</nuxt-link
       >
-      <nuxt-link class="block px-2 py-1 rounded hover:bg-gray-200" to="/cards"
+      <nuxt-link
+        class="block px-2 py-1 rounded hover:bg-gray-200"
+        to="/cards"
+        @click.native="isOpen = false"
         >Cards</nuxt-link
       >
-      <nuxt-link class="block px-2 py-1 rounded hover:bg-gray-200" to="/contact"
+      <nuxt-link
+        class="block px-2 py-1 rounded hover:bg-gray-200"
+        to="/contact"
+        @click.native="isOpen = false"
         >Contact</nuxt-link
       >
     </div>

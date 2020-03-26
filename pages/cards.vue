@@ -135,12 +135,6 @@ export default {
         },
         {
           question:
-            'Describe your parents’ values. How do they influence you today?',
-          category: 'Past & Future',
-          level: 2
-        },
-        {
-          question:
             'Take four minutes and tell us your life story in as much detail as possible.',
           category: 'Past & Future',
           level: 1
@@ -254,23 +248,12 @@ export default {
           level: 1
         },
         {
-          question: 'Who would be your favourite dinner guests?',
-          category: 'Dream & Desire',
-          level: 1
-        },
-        {
           question: 'When was the last time you cried in front of someone?',
           category: 'Open & Tell',
           level: 2
         },
         {
           question: 'What is the most child-like thing you still do?',
-          category: 'Open & Tell',
-          level: 1
-        },
-        {
-          question:
-            'On a scale from 1 to 10, how would you rate your current stress-level, and why?',
           category: 'Open & Tell',
           level: 1
         },
@@ -315,7 +298,7 @@ export default {
         },
         {
           question:
-            'What are the three things that can make your quarantaine bareable? What about making it fun?',
+            'What are the three things that can make your quarantine easier? What three things can even make it fun?',
           category: 'Re-think & Re-frame',
           level: 1
         },
@@ -327,13 +310,13 @@ export default {
         },
         {
           question:
-            'What is the first thing you will do once you get out of quarantaine? How about everyone around you?',
+            'What is the first thing you will do once you get out of quarantine?',
           category: 'Re-think & Re-frame',
           level: 1
         },
         {
           question:
-            'Name three ways to keep physically fit during quarantaine. How about keeping mentally fit?',
+            'Name three ways to keep physically fit during quarantine, and three ways to keep mentally fit.',
           category: 'Re-think & Re-frame',
           level: 1
         },
@@ -345,13 +328,13 @@ export default {
         },
         {
           question:
-            'When I wake up or go to bed, in order to release worries and tension, I.......',
+            'When I wake up or go to bed, in order to release worries and tension, I...',
           category: 'Re-think & Re-frame',
           level: 2
         },
         {
           question:
-            'What altered behaviour do you see around you, which makes you laugh? ',
+            'What altered behaviour do you see around you that makes you laugh?',
           category: 'Re-think & Re-frame',
           level: 1
         },
@@ -368,41 +351,42 @@ export default {
         },
         {
           question:
-            'Instead of being glued to my phone and the news, I limit my exposure to information by.....',
+            'How do you cope with the overflow of news and information during the quarantine?',
           category: 'Re-think & Re-frame',
           level: 1
         },
         {
-          question: 'What would be the soundtrack of the current lockdown?',
-          category: 'Re-think & Re-frame',
-          level: 1
-        },
-        {
-          question:
-            "What is one thing that you truly value about your life that you didn't realize before?",
-          category: 'Re-think & Re-frame',
-          level: 2
-        },
-        {
-          question: 'What is one lesson that humanity can learn from this?',
-          category: 'Re-think & Re-frame',
-          level: 2
-        },
-        {
-          question:
-            "Imagine you'd have to spend a year in quarantaine.... How would you design your daily life?",
-          category: 'Re-think & Re-frame',
-          level: 2
-        },
-        {
-          question:
-            "Who would be the person you'd most like to be quarantained with? How about the next three people?",
+          question: 'What would be your soundtrack for the current lockdown?',
           category: 'Re-think & Re-frame',
           level: 1
         },
         {
           question:
-            'What would be your most ideal location to spend in quarantaine? Why?',
+            "What is one thing that you truly value about your life that you didn't realize before the quarantine?",
+          category: 'Re-think & Re-frame',
+          level: 2
+        },
+        {
+          question:
+            'What is one lesson that humanity can learn from this time of quarantine?',
+          category: 'Re-think & Re-frame',
+          level: 2
+        },
+        {
+          question:
+            "Imagine you'd have to spend a year in quarantine.... How would you design your daily life?",
+          category: 'Re-think & Re-frame',
+          level: 2
+        },
+        {
+          question:
+            'Who are three people with whom you would most like to be quarantined?',
+          category: 'Re-think & Re-frame',
+          level: 1
+        },
+        {
+          question:
+            'What would be your ideal location to spend in quarantine? Why?',
           category: 'Re-think & Re-frame',
           level: 1
         },
