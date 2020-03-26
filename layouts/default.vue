@@ -1,16 +1,16 @@
 <template>
   <div>
-    <Header />
+    <Navbar />
     <nuxt />
   </div>
 </template>
 
 <script>
-import Header from '~/components/Header'
+import Navbar from '~/components/Navbar'
 
 export default {
   components: {
-    Header
+    Navbar
   }
 }
 </script>
@@ -31,5 +31,10 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+a:focus,
+button:focus {
+  outline: 2px dashed black;
 }
 </style>
