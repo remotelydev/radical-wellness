@@ -5,7 +5,7 @@
   >
     <Logo
       :class="inverted ? 'text-white' : `text-${categoryColor}`"
-      class="h-24"
+      class="h-24 mt-8"
     />
     <div class="card flex flex-col max-w-md">
       <h1>
