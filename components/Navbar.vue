@@ -9,7 +9,7 @@
           class="font-bold px-2 py-1"
           to="/"
           @click.native="isOpen = false"
-          >Radical Wellnes</nuxt-link
+          >Radical Wellness</nuxt-link
         >
       </div>
       <div class="sm:hidden">
