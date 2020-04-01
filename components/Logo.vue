@@ -13,7 +13,7 @@
   </svg>
 </template>
 <style>
-.logo {
+/* .logo {
   animation: 1s appear;
 }
 
@@ -24,5 +24,5 @@
   100% {
     opacity: 1;
   }
-}
+} */
 </style>
